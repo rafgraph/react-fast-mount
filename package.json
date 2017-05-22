@@ -1,0 +1,56 @@
+{
+  "private": true,
+  "name": "react-fast-mount",
+  "version": "0.0.0",
+  "description": "High order component to fast mount slow renderering React components for improved app responsiveness.",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "yarn run build-lib && yarn run build-dist",
+    "build-lib": "rm -rf lib && babel src -d lib",
+    "build-dist": "rm -rf dist && webpack src/index.js dist/react-fast-mount.js && webpack -p src/index.js dist/react-fast-mount.min.js",
+    "prepublish": "yarn run build",
+    "dev": "yarn link && babel src -d lib --watch"
+  },
+  "files": [
+    "dist",
+    "lib",
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafrex/react-fast-mount.git"
+  },
+  "keywords": [
+    "react",
+    "performance",
+    "responsiveness",
+    "mobile"
+  ],
+  "author": "Rafael Pedicini <code@rafrex.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rafrex/react-fast-mount/issues"
+  },
+  "peerDependencies": {
+    "react": "^15.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-eslint": "^7.2.3",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-preset-env": "^1.4.0",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^15.0.1",
+    "eslint-config-prettier": "^2.1.1",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^5.0.3",
+    "eslint-plugin-prettier": "^2.1.1",
+    "eslint-plugin-react": "^7.0.1",
+    "prettier": "^1.3.1",
+    "webpack": "^2.5.0"
+  }
+}

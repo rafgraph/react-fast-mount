@@ -5,7 +5,7 @@
   "scripts": {
     "start-local": "yarn link react-fast-mount && yarn start",
     "start": "webpack-dev-server --devtool eval-source-map --host 0.0.0.0 --public 10.0.1.4:8080 --history-api-fallback --open",
-    "unlink": "yarn unlink react-fast-mount && yarn add --save react-fast-mount",
+    "unlink": "yarn unlink react-fast-mount && yarn add react-fast-mount",
     "build": "yarn run unlink && webpack -p"
   },
   "repository": {

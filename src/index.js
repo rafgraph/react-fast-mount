@@ -9,7 +9,7 @@ export default function fastMount(WrappedComponent, container) {
       this.timerId = window.setTimeout(() => {
         this.setState({ renderComponent: true });
         this.timerId = null;
-      }, 16);
+      }, 8);
     }
 
     componentWillUnmount() {

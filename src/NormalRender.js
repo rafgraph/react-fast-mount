@@ -1,6 +1,6 @@
 import React from 'react';
-import SlowComponent from './SlowComponent';
+import ColorList from './ColorList';
 
 export default function NormalRender() {
-  return <SlowComponent />;
+  return <ColorList />;
 }

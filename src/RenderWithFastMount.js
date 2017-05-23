@@ -6,9 +6,9 @@ function RenderWithFastMount() {
   return <ColorList />;
 }
 
-// export default fastMount(RenderWithFastMount);
+export default fastMount(RenderWithFastMount);
 
-export default fastMount(
-  RenderWithFastMount,
-  <div style={{ backgroundColor: '#F0F0F0', width: '100%', height: '100%' }} />,
-);
+// export default fastMount(
+//   RenderWithFastMount,
+//   <div style={{ backgroundColor: '#F0F0F0', width: '100%', height: '100%' }} />,
+// );

@@ -3123,9 +3123,9 @@ react-dom@^15.5.4:
     object-assign "^4.1.0"
     prop-types "~15.5.7"
 
-react-fast-mount@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/react-fast-mount/-/react-fast-mount-0.1.0.tgz#b187686e19c664bcca2076c8863a333060954031"
+react-fast-mount@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/react-fast-mount/-/react-fast-mount-0.2.0.tgz#68a1691aad973f6311ecd3c1ae0f71edd2e4d484"
 
 react-interactive@^0.6.5:
   version "0.6.5"

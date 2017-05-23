@@ -18,7 +18,7 @@
     "prop-types": "^15.5.10",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
-    "react-fast-mount": "^0.1.0",
+    "react-fast-mount": "^0.2.0",
     "react-interactive": "^0.6.5",
     "react-router-dom": "^4.1.1"
   },

@@ -1,6 +1,6 @@
 {
   "name": "react-fast-mount",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "High order component to fast mount slow renderering React components for improved app responsiveness.",
   "main": "lib/index.js",
   "scripts": {

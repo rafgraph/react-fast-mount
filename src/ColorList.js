@@ -153,9 +153,11 @@ export default function ColorList() {
     'YellowGreen',
   ];
 
+  const tenColors = [...colors, ...colors, ...colors, ...colors, ...colors, ...colors, ...colors, ...colors, ...colors, ...colors]
+
   return (
     <ul style={{ backgroundColor: '#F0F0F0', margin: '0', padding: '0' }}>
-      {colors.map((color, i) => (
+      {tenColors.map((color, i) => (
         <li
           key={i} // eslint-disable-line
           style={{

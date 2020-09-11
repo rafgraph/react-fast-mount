@@ -1,6 +1,6 @@
 # React Fast Mount
 
-[Live Example](http://react-fast-mount.rafrex.com)
+> [Demo website](https://react-fast-mount.rafgraph.dev) (demo code on the [`gh-pages` branch](https://github.com/rafgraph/react-fast-mount/tree/gh-pages))
 
 Fast mount slow loading components for improved responsiveness and perceived performance. This allows a site to respond instantly to user input, even if it is to show a blank screen while the component is loading, so the site is perceived as fast and responsive.
 

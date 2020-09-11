@@ -17,7 +17,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rafrex/react-fast-mount.git"
+    "url": "git+https://github.com/rafgraph/react-fast-mount.git"
   },
   "keywords": [
     "react",
@@ -25,10 +25,10 @@
     "responsiveness",
     "mobile"
   ],
-  "author": "Rafael Pedicini <code@rafrex.com>",
+  "author": "Rafael Pedicini <rafael@rafgraph.dev>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rafrex/react-fast-mount/issues"
+    "url": "https://github.com/rafgraph/react-fast-mount/issues"
   },
   "peerDependencies": {
     "react": ">=15"
